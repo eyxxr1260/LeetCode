@@ -1,4 +1,4 @@
-1680. Concatenation of Consecutive Binary Numbers
+# 1680. Concatenation of Consecutive Binary Numbers
 
 ## Problem Description
 
@@ -46,4 +46,5 @@ The properties of modulo arithmetic allow us to apply the modulo operation durin
 * **Time Complexity:** `O(N)`
 The algorithm iterates from `1` to `n` exactly once. Inside the loop, it performs constant time `O(1)` bitwise and arithmetic operations.
 * **Space Complexity:** `O(1)`
+
 The algorithm only uses a few primitive variables (`ans`, `length`, `MOD`), requiring no extra scaling memory.
