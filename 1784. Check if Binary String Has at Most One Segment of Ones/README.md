@@ -39,11 +39,12 @@ Therefore, an invalid string must contain the exact sequence `"01"` at least onc
 
 ## Complexity Analysis
 
-* **Time Complexity: O(N)**
-  * **Solution 1:** Iterates through the string of length `N` exactly once, performing `O(N)` checks at each character.
-  * **Solution 2:** The `std::string::find()` function takes `O(N)` time to scan the string for the target substring in the worst case.
+* **Time Complexity: $O(N)$**
+  * **Solution 1:** Takes $O(N)$ time because it requires only a single pass through the string of length $N$.
+  * **Solution 2:** The `std::string::find()` function takes $O(N)$ time to scan the string for the target substring in the worst case.
 
 
-* **Space Complexity: O(1)**
+* **Space Complexity: $O(1)$**
 
   * Both solutions use a constant amount of auxiliary space. Solution 1 only uses a single boolean variable, and Solution 2 performs the search in-place without allocating additional memory.
+
